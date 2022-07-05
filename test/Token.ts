@@ -5,7 +5,9 @@
 
 // We import Chai to use its asserting functions here.
 import { expect } from "chai";
+import { Contract } from "ethers";
 import { ethers } from "hardhat";
+import { SignerWithAddress } from "@nomiclabs/hardhat-ethers/signers";
 
 // `describe` is a Mocha function that allows you to organize your tests. It's
 // not actually needed, but having your tests organized makes debugging them
@@ -25,10 +27,10 @@ describe("Token contract", function () {
   // `before` and `beforeEach` callbacks.
 
   let Token;
-  let hardhatToken;
-  let owner;
-  let addr1;
-  let addr2;
+  let hardhatToken: Contract;
+  let owner: SignerWithAddress;
+  let addr1: SignerWithAddress;
+  let addr2: SignerWithAddress;
   let addrs;
 
   // `beforeEach` will run before each test, re-deploying the contract every
