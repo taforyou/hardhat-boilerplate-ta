@@ -1,0 +1,28 @@
+deployer
+- address: 0x3dd69E6F0d73a5701e1ac4E2ca53349b4Fc1be18
+- secret: reipoint-deployer
+
+worker-mainnet
+- address: 0xaFa6EE9eD18323C9C92C40b82C8c8E451807C911
+- secret: reipoint-worker-mainnet
+
+worker-testnet
+- address: 0x4EE611339A3e3592e2D82EB410d4E0cEA87F2d50
+- secret: reipoint-worker-testnet
+
+REP: 0x4CfAFCF8280f6dd8e350Fa34d6ee00F6F468374a
+Distributor: 0x5Ef2588408e71cBDBf79d209ACa3F5dAB3bC5462
+Human: 0x59f894C7929E6fe8E141a21Ff1f3eEEa35Df1552
+
+deployer point token gas: 0.003 REI
+verify point token: npx hardhat verify ADDR --network rei --contract contracts/PointToken.sol:PointToken NAME" "SYMBOL"
+
+Testnet
+- TP_PK: 822e07d165d933dfce6ec2973f9d45886d18cd5df38ac28f4f5a5e639d4be8be
+- TP_ADDR: 0x1305Cd5e5C107eAFCA084A40699BCc0a2720Bd0d
+- TP: 0x83070da9853492d46318425271d3D2b14835ae02
+
+Mainnet
+- BKK: 0x7C10f6251bDe703587f77Ec277ce1635814Be230
+- BV: 0xD1F787c1Dc8a70221789FF6DB12DDFb253C0955D
+- BGA: 0x119f7Ce1deE00a5E33897F08b601C1481F112A9B
